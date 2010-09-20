@@ -1,0 +1,10 @@
+I included my .pde sketch, but the meat is in the library.  Just make a <arduino sketch dir>/libraries/Firefly directory and add in the Firefly.h and Firefly.cpp files.  You should be able to just import the library from the Arduino IDE.
+
+I'm using little SMD RGB LED's in the jar, run off of a LilyPad.  So far, it's pretty neat - but there's some stuff I want to add for sure :
+
+1. More fireflies (gotta figure out how to mux/demux RGBs for that)
+2. Some basic threading.  It'd be cooler if the flies could act independently such that they could maybe fire off at the same time.
+
+Video of first draft : http://www.youtube.com/watch?v=ecCJJR7UZEE
+
+Comments/suggestions always welcome. 
